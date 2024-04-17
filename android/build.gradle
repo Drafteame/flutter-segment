@@ -23,6 +23,8 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace 'com.example.flutterSegment'
+
     compileSdkVersion 31
 
     defaultConfig {
