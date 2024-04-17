@@ -23,7 +23,9 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    namespace 'com.example.flutterSegment'
+    if (project.android.hasProperty("namespace")) {
+        namespace 'com.example.flutterSegment'
+    }
 
     compileSdk 33
 
