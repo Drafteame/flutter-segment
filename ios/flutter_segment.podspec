@@ -19,7 +19,8 @@ Library to let Flutter apps use Segment.io
   s.dependency 'Flutter'
   s.dependency 'Analytics', '4.1.6'
   s.dependency 'Segment-Amplitude', '3.3.2'
-  s.dependency 'segment-appsflyer-ios', '6.13.1'
+  s.ios.dependency 'AppsFlyerFramework', '6.14.2'
+  s.resource_bundles = {'flutter_appsflyer_sdk_privacy' => ['Resources/PrivacyInfo.xcprivacy']}
   s.ios.deployment_target = '11.0'
 
   # Added because Segment-Amplitude dependencies on iOS cause this error:
