@@ -11,6 +11,7 @@ PODS:
     - Analytics (= 4.1.6)
     - Flutter
     - Segment-Amplitude (= 3.3.2)
+    - segment-appsflyer-ios
   - Segment-Amplitude (3.3.2):
     - Amplitude (~> 8.3)
     - Analytics
@@ -54,10 +55,10 @@ SPEC CHECKSUMS:
   AnalyticsConnector: a53214d38ae22734c6266106c0492b37832633a9
   AppsFlyerFramework: b3de9a49c6af8a8e38c44603e468b5e207f22466
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
-  flutter_segment: ea3068b845e785cb2868698e1c25d4b05051f9f7
+  flutter_segment: a8feb1ef74a85ba10670deb4039c3ce00c21363a
   Segment-Amplitude: 6c1e59c8c278a21029ba7a6a788fcb31b9233a2c
   segment-appsflyer-ios: a73a39eb5e4c08757b6eb0589037a655839c8aba
 
-PODFILE CHECKSUM: a46b3e28f28ed937712f5134b96bfc21aca8b1ae
+PODFILE CHECKSUM: 47178025d87b7cacc55bd263fe4e6b8710cd2c7d
 
 COCOAPODS: 1.15.2
