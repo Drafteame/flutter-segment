@@ -12,9 +12,9 @@ Library to let Flutter apps use Segment.io
   s.license          = { :type => 'MIT', :file => '../LICENSE' }
   s.author           = 'La Haus'
   s.source           = { :git => "https://github.com/la-haus/flutter-segment.git", :tag => s.version.to_s }
-
-  s.source_files = 'Classes/**/*'
-  s.public_header_files = 'Classes/**/*.h'
+  
+  s.source_files = 'ios/Classes/**/*'  
+  s.public_header_files = 'ios/Classes/**/*.h'
 
   s.dependency 'Flutter'
   s.dependency 'Analytics', '4.1.6'

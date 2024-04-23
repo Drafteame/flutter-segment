@@ -14,10 +14,10 @@ PODS:
   - Segment-Amplitude (3.3.2):
     - Amplitude (~> 8.3)
     - Analytics
-  - segment-appsflyer-ios (6.13.1):
+  - segment-appsflyer-ios (6.14.0):
     - Analytics
-    - segment-appsflyer-ios/Main (= 6.13.1)
-  - segment-appsflyer-ios/Main (6.13.1):
+    - segment-appsflyer-ios/Main (= 6.14.0)
+  - segment-appsflyer-ios/Main (6.14.0):
     - Analytics
     - AppsFlyerFramework (= 6.14.2)
 
@@ -45,7 +45,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   segment-appsflyer-ios:
-    :commit: 0a06029ce3269f42536495410129cb169aa393b6
+    :commit: 41b4e823f20479933a67b30d8ae913eb3ba39d8d
     :git: https://github.com/Drafteame/segment-appsflyer-ios.git
 
 SPEC CHECKSUMS:
@@ -54,9 +54,9 @@ SPEC CHECKSUMS:
   AnalyticsConnector: a53214d38ae22734c6266106c0492b37832633a9
   AppsFlyerFramework: b3de9a49c6af8a8e38c44603e468b5e207f22466
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
-  flutter_segment: c47a0df52b40f5ee9eecf88d3bd89cfaa7a334c3
+  flutter_segment: ea3068b845e785cb2868698e1c25d4b05051f9f7
   Segment-Amplitude: 6c1e59c8c278a21029ba7a6a788fcb31b9233a2c
-  segment-appsflyer-ios: 1c902826361c0ba4c2832f6a7e1805ec05ec301e
+  segment-appsflyer-ios: a73a39eb5e4c08757b6eb0589037a655839c8aba
 
 PODFILE CHECKSUM: a46b3e28f28ed937712f5134b96bfc21aca8b1ae
 
