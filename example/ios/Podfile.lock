@@ -11,21 +11,21 @@ PODS:
     - Analytics (= 4.1.6)
     - Flutter
     - Segment-Amplitude (= 3.3.2)
-    - segment-appsflyer-ios
+    - segment-appsflyer-ios (= 6.14.2)
   - Segment-Amplitude (3.3.2):
     - Amplitude (~> 8.3)
     - Analytics
-  - segment-appsflyer-ios (6.14.0):
+  - segment-appsflyer-ios (6.14.2):
     - Analytics
-    - segment-appsflyer-ios/Main (= 6.14.0)
-  - segment-appsflyer-ios/Main (6.14.0):
+    - segment-appsflyer-ios/Main (= 6.14.2)
+  - segment-appsflyer-ios/Main (6.14.2):
     - Analytics
     - AppsFlyerFramework (= 6.14.2)
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
   - flutter_segment (from `.symlinks/plugins/flutter_segment/ios`)
-  - segment-appsflyer-ios (from `https://github.com/Drafteame/segment-appsflyer-ios.git`, branch `test_upgrade`)
+  - segment-appsflyer-ios (from `https://github.com/Drafteame/segment-appsflyer-ios.git`, tag `6.14.2`)
 
 SPEC REPOS:
   trunk:
@@ -41,13 +41,13 @@ EXTERNAL SOURCES:
   flutter_segment:
     :path: ".symlinks/plugins/flutter_segment/ios"
   segment-appsflyer-ios:
-    :branch: test_upgrade
     :git: https://github.com/Drafteame/segment-appsflyer-ios.git
+    :tag: 6.14.2
 
 CHECKOUT OPTIONS:
   segment-appsflyer-ios:
-    :commit: 41b4e823f20479933a67b30d8ae913eb3ba39d8d
     :git: https://github.com/Drafteame/segment-appsflyer-ios.git
+    :tag: 6.14.2
 
 SPEC CHECKSUMS:
   Amplitude: 8260687c17fe702bd0ae56c23f7a60207a7efd25
@@ -55,10 +55,10 @@ SPEC CHECKSUMS:
   AnalyticsConnector: a53214d38ae22734c6266106c0492b37832633a9
   AppsFlyerFramework: b3de9a49c6af8a8e38c44603e468b5e207f22466
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
-  flutter_segment: a8feb1ef74a85ba10670deb4039c3ce00c21363a
+  flutter_segment: 91c05b4bfced08254b3138034ada8d1b5b681f97
   Segment-Amplitude: 6c1e59c8c278a21029ba7a6a788fcb31b9233a2c
-  segment-appsflyer-ios: a73a39eb5e4c08757b6eb0589037a655839c8aba
+  segment-appsflyer-ios: 800b03ddf925c2d1f37a3ba45615cb85101cef01
 
-PODFILE CHECKSUM: 47178025d87b7cacc55bd263fe4e6b8710cd2c7d
+PODFILE CHECKSUM: 80ad04ebe7407cc11eee75d78a37bd475c7909ae
 
 COCOAPODS: 1.15.2
