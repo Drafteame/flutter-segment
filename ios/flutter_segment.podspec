@@ -13,13 +13,14 @@ Library to let Flutter apps use Segment.io
   s.author           = 'La Haus'
   s.source           = { :git => "https://github.com/la-haus/flutter-segment.git", :tag => s.version.to_s }
 
-  s.source_files = 'Classes/**/*'
+  s.source_files = 'Classes/**/*'  
   s.public_header_files = 'Classes/**/*.h'
 
   s.dependency 'Flutter'
   s.dependency 'Analytics', '4.1.6'
   s.dependency 'Segment-Amplitude', '3.3.2'
-  s.dependency 'segment-appsflyer-ios', '6.10.1'
+  s.dependency 'segment-appsflyer-ios','6.14.2'
+  
   s.ios.deployment_target = '11.0'
 
   # Added because Segment-Amplitude dependencies on iOS cause this error:
