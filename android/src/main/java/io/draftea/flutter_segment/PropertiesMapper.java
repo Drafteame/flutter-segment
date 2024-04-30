@@ -1,4 +1,4 @@
-package com.example.flutter_segment;
+package io.draftea.flutter_segment;
 
 import androidx.annotation.VisibleForTesting;
 
@@ -11,11 +11,11 @@ public class PropertiesMapper {
     protected Properties buildProperties(Map<String, Object> map) {
         Properties properties = new Properties();
 
-        for(Map.Entry<String, Object> property : map.entrySet()) {
+        for (Map.Entry<String, Object> property : map.entrySet()) {
             String key = property.getKey();
             Object value = property.getValue();
 
-            if (value instanceof Map){
+            if (value instanceof Map) {
                 Properties nestedProperties = buildProperties((Map<String, Object>) value);
                 properties.putValue(key, nestedProperties);
             } else {
