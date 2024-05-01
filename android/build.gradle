@@ -1,4 +1,4 @@
-group 'com.example.flutter_segment'
+group 'io.draftea.flutter_segment'
 version '3.12.1'
 
 buildscript {
@@ -24,7 +24,7 @@ apply plugin: 'com.android.library'
 
 android {
     if (project.android.hasProperty("namespace")) {
-        namespace 'com.example.flutterSegment'
+        namespace 'io.draftea.flutterSegment'
     }
 
     compileSdk 33
