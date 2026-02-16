@@ -3,29 +3,28 @@ PODS:
     - AnalyticsConnector (~> 1.0.0)
   - Analytics (4.1.6)
   - AnalyticsConnector (1.0.3)
-  - AppsFlyerFramework (6.14.2):
-    - AppsFlyerFramework/Main (= 6.14.2)
-  - AppsFlyerFramework/Main (6.14.2)
+  - AppsFlyerFramework (6.17.8):
+    - AppsFlyerFramework/Main (= 6.17.8)
+  - AppsFlyerFramework/Main (6.17.8)
   - Flutter (1.0.0)
-  - flutter_segment (3.13.1):
+  - flutter_segment (4.2.0):
     - Analytics (= 4.1.6)
     - Flutter
     - Segment-Amplitude (= 3.3.2)
-    - segment-appsflyer-ios (= 6.14.2)
+    - segment-appsflyer-ios (= 6.17.8)
   - Segment-Amplitude (3.3.2):
     - Amplitude (~> 8.3)
     - Analytics
-  - segment-appsflyer-ios (6.14.2):
+  - segment-appsflyer-ios (6.17.8):
     - Analytics
-    - segment-appsflyer-ios/Main (= 6.14.2)
-  - segment-appsflyer-ios/Main (6.14.2):
+    - segment-appsflyer-ios/Main (= 6.17.8)
+  - segment-appsflyer-ios/Main (6.17.8):
     - Analytics
-    - AppsFlyerFramework (= 6.14.2)
+    - AppsFlyerFramework (= 6.17.8)
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
   - flutter_segment (from `.symlinks/plugins/flutter_segment/ios`)
-  - segment-appsflyer-ios (from `https://github.com/Drafteame/segment-appsflyer-ios.git`, tag `6.14.2`)
 
 SPEC REPOS:
   trunk:
@@ -34,31 +33,24 @@ SPEC REPOS:
     - AnalyticsConnector
     - AppsFlyerFramework
     - Segment-Amplitude
+    - segment-appsflyer-ios
 
 EXTERNAL SOURCES:
   Flutter:
     :path: Flutter
   flutter_segment:
     :path: ".symlinks/plugins/flutter_segment/ios"
-  segment-appsflyer-ios:
-    :git: https://github.com/Drafteame/segment-appsflyer-ios.git
-    :tag: 6.14.2
-
-CHECKOUT OPTIONS:
-  segment-appsflyer-ios:
-    :git: https://github.com/Drafteame/segment-appsflyer-ios.git
-    :tag: 6.14.2
 
 SPEC CHECKSUMS:
   Amplitude: 8260687c17fe702bd0ae56c23f7a60207a7efd25
   Analytics: eefe524436f904b8bb3f8c8c3425280e43b34efc
   AnalyticsConnector: a53214d38ae22734c6266106c0492b37832633a9
-  AppsFlyerFramework: b3de9a49c6af8a8e38c44603e468b5e207f22466
-  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
-  flutter_segment: 91c05b4bfced08254b3138034ada8d1b5b681f97
+  AppsFlyerFramework: 63577b60d6b9fcdab60135289979e7d1c9ec79b9
+  Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
+  flutter_segment: 51a3f768a10971bdbc4ff0fa759b43e39305448f
   Segment-Amplitude: 6c1e59c8c278a21029ba7a6a788fcb31b9233a2c
-  segment-appsflyer-ios: 800b03ddf925c2d1f37a3ba45615cb85101cef01
+  segment-appsflyer-ios: 1e415e65b0ee3d3dcfc1d3bd3dbab20a6fecef09
 
-PODFILE CHECKSUM: 80ad04ebe7407cc11eee75d78a37bd475c7909ae
+PODFILE CHECKSUM: 057c64d4fa7190806e100b48d6525d9791444878
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.16.2
