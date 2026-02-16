@@ -3,7 +3,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'flutter_segment'
-  s.version          = '4.0.0'
+  s.version          = '4.2.0'
   s.summary          = 'Segment.io plugin for Flutter'
   s.description      = <<-DESC
 Library to let Flutter apps use Segment.io
@@ -19,9 +19,9 @@ Library to let Flutter apps use Segment.io
   s.dependency 'Flutter'
   s.dependency 'Analytics', '4.1.6'
   s.dependency 'Segment-Amplitude', '3.3.2'
-  s.dependency 'segment-appsflyer-ios','6.17.3'
+  s.dependency 'segment-appsflyer-ios','6.17.8'
   
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '13.0'
 
   # Added because Segment-Amplitude dependencies on iOS cause this error:
   # [!] The 'Pods-Runner' target has transitive dependencies that include statically linked binaries: (Segment-Amplitude)

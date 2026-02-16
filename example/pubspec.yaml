@@ -5,7 +5,7 @@ publish_to: 'none'
 version: 0.0.1+1
 
 environment:
- sdk: "3.3.3"
+ sdk: ">=3.10.4"
 
 dependencies:
   # The following adds the Cupertino Icons font to your application.
